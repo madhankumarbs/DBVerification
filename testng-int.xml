@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" allow-return-values="true">
+
+	<test name="cancelres">
+		<parameter name="environment" value="int" />
+		<classes>
+			<class
+				name="com.ihg.apiautomation.cancelres.CancelReservationREST" />
+		</classes>
+	</test>
+</suite>
